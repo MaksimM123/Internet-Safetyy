@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Полезные советы</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Полезные советы</h1>
+</header>
+
+<nav>
+<a href="index.html">Главная</a>
+</nav>
+
+<section class="container">
+
+<div class="card">
+
+<img src="images/security.jpg" alt="Безопасность">
+
+<h2>Основные правила безопасности</h2>
+
+<ul>
+<li>Используйте сложные пароли.</li>
+<li>Включите двухфакторную аутентификацию.</li>
+<li>Не переходите по подозрительным ссылкам.</li>
+<li>Обновляйте программы и антивирус.</li>
+<li>Проверяйте сайты перед вводом данных.</li>
+<li>Не сообщайте коды из SMS.</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>Что делать, если вас обманули?</h2>
+
+<ul>
+<li>Связаться с банком.</li>
+<li>Заблокировать карту.</li>
+<li>Сменить пароли.</li>
+<li>Обратиться в полицию.</li>
+<li>Сообщить о мошенническом сайте.</li>
+</ul>
+
+</div>
+<div class="quiz">
+
+<h2>Проверь свои знания</h2>
+
+<p>
+Сотрудник банка позвонил и попросил назвать код из SMS.
+Что делать?
+</p>
+
+<input type="radio"
+name="quiz"
+value="wrong">
+
+Сообщить код
+
+<br><br>
+
+<input type="radio"
+name="quiz"
+value="correct">
+
+Не сообщать код
+
+<br><br>
+
+<button onclick="checkQuiz()">
+Проверить
+</button>
+
+<p id="result"></p>
+
+</div>
+</section>
+
+<footer>
+<p>Берегите свои данные</p>
+</footer>
+<script src="script.js"></script>
+
+</body>
+</html>
